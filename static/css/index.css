@@ -1,0 +1,126 @@
+body,html{
+    color: white;
+    height: 100%;
+    margin: 0;
+    text-transform: capitalize; 
+}
+
+.bg {
+    /* The image used */
+    background-image: url("/static/img/backgroundImage.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.one {
+    height: 75px;
+    width: 75px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.input-form{
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    margin-bottom: 4px;
+    position: absolute;
+    right: 500px;
+    top: 40px;
+
+    background-color: transparent !important;
+    border-radius: 25px;
+    /* display: inline-block; */
+    outline: none;
+    color: #ffffff;
+
+    background: url("/static/img/searchicon.png") no-repeat;
+    background-position: center;     
+    background-position-x: calc(100% - 12px);
+    background-size: 30px;
+}
+
+.city {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 92px;
+    
+}
+
+.day-time{
+    /* padding: 20px; */
+    display: flex;
+    justify-content: center;
+    /* margin: 0 auto; */
+    margin-top: 40px;
+}
+.day{
+    padding-right: 20px;
+}
+h2{
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.weather-container{
+    display: flex;
+    justify-content: center;
+}
+.weather{
+    height: 120px;
+    width: 120px;
+    transform: scale(2.0);
+}
+
+.weather-description{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    /* text-transform: capitalize;  */
+}
+
+.temp{
+    display: flex;
+    justify-content: center;
+}
+
+.thermometer {
+    height: 120px;
+    width: 120px;
+}
+
+/* .center{
+    vertical-align: text-top;
+} */
+.t {
+    font-size: 100px;
+    position: relative;
+    margin-bottom: 0%;
+    overflow: hidden;
+    margin-top: 0%;
+}
+.btn {
+    border: none;
+    color: white;
+    background-color: inherit;
+    /* padding: 0px 7px; */
+    font-size: 40px;
+    cursor: pointer;
+}

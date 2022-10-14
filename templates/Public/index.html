@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="/static/css/index.css">
+</head>
+<body>
+    <div class="bg">
+        <header>
+            <div class="logo">
+                <a href="#"><img class="one"  src="/static/img/weather app logo.png" alt=""></a>
+            </div>
+            <div class="input-form">
+                <form id="city-form">
+                    <input type="text" id="city" placeholder="Search City...">
+                </form>
+            </div>
+        </header>
+        <div id="city-names">
+            <h1 id="city-name" class="city">NAIROBI</h1>
+        </div>
+        <div class="day-time">
+            <h2 class="day" id="day">Monday</h2>
+            <h2 class="time" id="time">19:00</h2>
+        </div>
+        <div class="weather-container">
+            <img  class="weather" src="/static/img/MostlyCloudyNight110.svg" id="icon">
+        </div>
+        <div>
+            <h2 class="weather-description" id="weather-description">Mostly Cloudy</h2>
+        </div>
+        <div class="temp">
+            <div>
+                <img class="thermometer" src="/static/img/temperatureicon.svg">
+            </div>
+            <div class="center">
+                <h1 class="t" id="t">90</h1>
+            </div>
+            <div>
+                <button class="btn celcius">&#176C</button>
+            </div>
+            <div>
+                <button class="btn farenheit">&#176F</button>
+            </div>
+            
+        </div>
+       
+    </div>
+    <script type="text/javascript"  src="/static/js/index.js"></script>
+</body>
+</html>
