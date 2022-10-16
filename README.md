@@ -21,7 +21,7 @@ flask run --reload
 ## Test
 Search for a city and the results will be displayed
 
-## TODO
+## TODOs
 1. Update time
 2. Update temperature change functionality
 3. Fix css issues on smaller screens
