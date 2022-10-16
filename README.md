@@ -25,3 +25,4 @@ Search for a city and the results will be displayed
 1. Update time
 2. Update temperature change functionality
 3. Fix css issues on smaller screens
+4. Extend app functions
